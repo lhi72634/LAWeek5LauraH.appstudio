@@ -5,3 +5,9 @@ let authorString =  "- Henry Ford"
 
 var completeString = quoteString.concat(authorString)
 console.log(`Concatenated string is: ${completeString}.`)
+
+let found = completeString.includes("Henry")
+if (found = true)
+    console.log("Henry was in completeString.")
+else
+    console.log("Henry was NOT in completeString.")
